@@ -21,17 +21,50 @@ h2 {
   font-weight: normal;
   text-align: center;
 }
+h3 {
+  font-family: Helvetica;
+  font-size: 32px;
+  font-weight: bold;
+  text-align: center;
+}
+h4 {
+  font-family: Helvetica;
+  font-size: 23px;
+  font-weight: bold;
+  text-align: center;
+}
+h5 {
+  font-family: Helvetica;
+  font-size: 14px;
+  font-weight: normal;
+  text-align: center;
+}
 li {
   list-style-position: inside;
   list-style: none;
   align-items: center;
-
   font-weight: normal;
   text-align: center;
 }
-a {
+.banner {
+  background-image: url("../images/the-flatiron-building.png");
+  background-position: horizontal;
+  height: 27px;
+}
+h6 {
+  text-align: center;
   color: white;
+  font-family: Helvetica;
+  font-size: 23px;
+  font-weight: bold;}
+a {
   color: white;
   font-family: Helvetica;
   font-size: 18px;
+}
+footer {
+  background-color: dimgrey;
+  text-align: left;
+  color: white;
+  font-family: Helvetica;
 }
